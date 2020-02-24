@@ -1,8 +1,8 @@
+import 'package:extended_transitions/coupled_transition/coupled_transition.dart';
+import 'package:extended_transitions/coupled_transition/coupled_transition_controller.dart';
+import 'package:extended_transitions/coupled_transition/transition.dart';
 import 'package:flutter/material.dart';
-import 'package:open_source_projects/coulped_transition.dart';
-import 'package:open_source_projects/transition.dart';
 
-import 'coupled_transition_controller.dart';
 
 
 void main() => runApp(MyApp());
@@ -42,8 +42,8 @@ class _HomePageState extends State<HomePage> {
               padding: EdgeInsets.symmetric(horizontal: 0, vertical: 10),
               child: Center(child: Text("Lesser codes...Better animations", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold), overflow: TextOverflow.clip,)),
               decoration: BoxDecoration(
-                gradient: LinearGradient(colors: [Colors.blue, Colors.red]),
-                borderRadius: BorderRadius.circular(4)
+                  gradient: LinearGradient(colors: [Colors.blue, Colors.red]),
+                  borderRadius: BorderRadius.circular(4)
               ),
             ),
           ),
